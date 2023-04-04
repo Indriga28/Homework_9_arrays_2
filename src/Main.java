@@ -33,13 +33,11 @@ public class Main {
             if (maxCost < arr[i]) {
                 maxCost = arr[i];
             }
-        }
-        System.out.println("Максимальная сумма трат за месяц составила " + maxCost + " рублей.");
-        for (int i = 0; i < arr.length; i++) {
             if (minCost > arr[i]) {
                 minCost = arr[i];
             }
         }
+        System.out.println("Максимальная сумма трат за месяц составила " + maxCost + " рублей.");
         System.out.println("Минимальная сумма трат за месяц составила " + minCost + " рублей.");
     }
     public static void task3 () {
